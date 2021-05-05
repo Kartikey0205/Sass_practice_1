@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+body{
+    // background-color: map-get($map: $colors, $key: accent);
+    background-color: color(primary);
+    color: map-get($map: $colors, $key: font);
+    font-size: map-get($map: $sizes, $key: fonth2);
+}
+*/
+/*
+main{
+    height: 100%;
+    p{
+        color: color(accent);
+    }
+    a{
+        text-decoration: none;
+    }
+
+}
+*/
+body, html {
+  height: 100%;
+}
+
+body .container {
+  -webkit-clip-path: polygon(0 0, 75% 0%, 100% 0, 100% 49%, 33% 100%, 0 86%);
+          clip-path: polygon(0 0, 75% 0%, 100% 0, 100% 49%, 33% 100%, 0 86%);
+  background-color: #2827CC;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+body header a {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding-top: 19px;
+}
+/*# sourceMappingURL=style.css.map */
